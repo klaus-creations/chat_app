@@ -10,7 +10,6 @@ export default function HomeLayout({
   children: React.ReactNode;
 }) {
   const isDark = useAppSelector((state) => state.theme.isDark);
-  console.log(isDark);
   return (
     <div
       className={`${
